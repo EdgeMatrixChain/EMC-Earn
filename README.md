@@ -25,32 +25,3 @@ yarn make
 # x64 package
 yarn make:x64
 ```
-
-## env
-```bash
-# dev
-### /src/utils/env.ts
-const environment = "development";
-### forge.config.js
-const env = "development";
-### package.json
-"name": "EMC-DEV",
-"productName": "EMC-DEV",
-
-# test
-const environment = "test";
-### 
-const env = "test";
-###
-"name": "EMC-TEST",
-"productName": "EMC-TEST",
-
-# production
-const environment = "production";
-###
-const env = "production";
-###
-"name": "EMC",
-"productName": "EMC",
-
-```

@@ -1,22 +1,9 @@
 const { FusesPlugin } = require("@electron-forge/plugin-fuses");
 const { FuseV1Options, FuseVersion } = require("@electron/fuses");
 
-const env = "test";
-// const env = "production";
+const env = "production";
 
 const configs = {
-  development: {
-    icon: "./src/assets/icons/app-icon-test",
-    iconUrl: "https://emc-earn-test.chainfish.xyz/file/app-icon-test.ico",
-    setupIcon: "./src/assets/icons/app-icon-test.ico",
-    makeIcon: "./src/assets/icons/app-icon-test.png",
-  },
-  test: {
-    icon: "./src/assets/icons/app-icon-test",
-    iconUrl: "https://emc-earn-test.chainfish.xyz/file/app-icon-test.ico",
-    setupIcon: "./src/assets/icons/app-icon-test.ico",
-    makeIcon: "./src/assets/icons/app-icon-test.png",
-  },
   production: {
     icon: "./src/assets/icons/app-icon",
     iconUrl: "https://earn.emc.network/file/app-icon.ico",
